@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <Description>Frank's LINQPad CSV extensions are a set of extensions to LINQPad that makes it easier to work with CSV files in LINQPad.</Description>
+        <PackageTags>Frank, LINQPad, CSV, Extensions</PackageTags>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Frank.LinqPad\Frank.LinqPad.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="CsvHelper" Version="33.0.1" />
+    </ItemGroup>
+
+</Project>

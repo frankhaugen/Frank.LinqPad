@@ -1,8 +1,20 @@
-<Query Kind="Expression">
-  <NuGetReference>Microsoft.AspNetCore.App.Ref</NuGetReference>
+<Query Kind="Statements">
+  <NuGetReference Prerelease="true">Frank.LinqPad.Logging</NuGetReference>
+  <NuGetReference Prerelease="true">Frank.LinqPad.VarDump</NuGetReference>
   <Namespace>System.Net</Namespace>
   <Namespace>System.Text.Json</Namespace>
   <Namespace>System.Threading.Tasks</Namespace>
-  <IncludeAspNet>true</IncludeAspNet>
+  <DisableMyExtensions>true</DisableMyExtensions>
 </Query>
+
+
+
+
+
+
+var version = new Version(1,2);
+
+version.Dump();
+
+
 
