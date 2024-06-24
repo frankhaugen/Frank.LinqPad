@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <Description>Frank's LINQPad extensions are a set of extensions to LINQPad that makes it easier to work with LINQPad.</Description>
+        <PackageTags>Frank, LINQPad, Extensions</PackageTags>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="LINQPad.Runtime" Version="8.3.7" />
+    </ItemGroup>
+
+</Project>

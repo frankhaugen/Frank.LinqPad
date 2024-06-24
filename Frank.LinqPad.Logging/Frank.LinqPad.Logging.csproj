@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <Description>Frank's LINQPad Logging extensions are a set of extensions to LINQPad that makes it easier to log to the LINQPad output window using Microsoft.Extensions.Logging.</Description>
+        <PackageTags>Frank, LINQPad, Logging, Extensions, Microsoft.Extensions.Logging</PackageTags>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.1" />
+        <PackageReference Include="Frank.Reflection" Version="1.3.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Frank.LinqPad\Frank.LinqPad.csproj" />
+    </ItemGroup>
+
+</Project>

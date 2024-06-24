@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <Description>Frank's LINQPad Hosting extensions are a set of extensions to LINQPad that makes it easier to host .NET Core applications in LINQPad.</Description>
+        <PackageTags>Frank, LINQPad, Hosting, Extensions, .NET Core, .NET 8</PackageTags>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Frank.LinqPad.Logging\Frank.LinqPad.Logging.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+    </ItemGroup>
+
+</Project>
