@@ -24,7 +24,8 @@ public static class JsonUtil
             new JsonStringEnumConverter(),
             new JsonDirectoryInfoConverter(),
             new JsonMailAddressConverter(),
-            new JsonFileInfoConverter()
+            new JsonFileInfoConverter(),
+            new JsonTypeConverter(),
         },
         WriteIndented = true,
         DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull,

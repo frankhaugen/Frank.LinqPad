@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frank.LinqPad.Hosting", "Fr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frank.LinqPad.Csv", "Frank.LinqPad.Csv\Frank.LinqPad.Csv.csproj", "{9636D0DB-1494-432C-B3CA-B2AA9D974570}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frank.LinqPad.Json", "Frank.LinqPad.Json\Frank.LinqPad.Json.csproj", "{4471AF28-2E0A-461A-B59A-BE063E92AEDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frank.LinqPad.Tests", "Frank.LinqPad.Tests\Frank.LinqPad.Tests.csproj", "{A99460DA-A804-480E-9A89-1029C3A864E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,5 +65,13 @@ Global
 		{9636D0DB-1494-432C-B3CA-B2AA9D974570}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9636D0DB-1494-432C-B3CA-B2AA9D974570}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9636D0DB-1494-432C-B3CA-B2AA9D974570}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4471AF28-2E0A-461A-B59A-BE063E92AEDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4471AF28-2E0A-461A-B59A-BE063E92AEDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4471AF28-2E0A-461A-B59A-BE063E92AEDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4471AF28-2E0A-461A-B59A-BE063E92AEDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A99460DA-A804-480E-9A89-1029C3A864E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A99460DA-A804-480E-9A89-1029C3A864E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A99460DA-A804-480E-9A89-1029C3A864E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A99460DA-A804-480E-9A89-1029C3A864E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
