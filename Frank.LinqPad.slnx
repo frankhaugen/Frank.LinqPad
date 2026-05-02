@@ -1,0 +1,22 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+    <File Path="Directory.Build.props" />
+    <File Path="icon.png" />
+    <File Path="LICENSE" />
+    <File Path="nuget.config" />
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/Solution Items/GithubActions/">
+    <File Path=".github/workflows/merge.yml" />
+    <File Path=".github/workflows/pull-request.yml" />
+    <File Path=".github/workflows/release.yml" />
+  </Folder>
+  <Project Path="Frank.LinqPad.Csv/Frank.LinqPad.Csv.csproj" />
+  <Project Path="Frank.LinqPad.Hosting/Frank.LinqPad.Hosting.csproj" />
+  <Project Path="Frank.LinqPad.Json/Frank.LinqPad.Json.csproj" />
+  <Project Path="Frank.LinqPad.Logging/Frank.LinqPad.Logging.csproj" />
+  <Project Path="Frank.LinqPad.Tests/Frank.LinqPad.Tests.csproj" />
+  <Project Path="Frank.LinqPad.VarDump/Frank.LinqPad.VarDump.csproj" />
+  <Project Path="Frank.LinqPad/Frank.LinqPad.csproj" />
+</Solution>
